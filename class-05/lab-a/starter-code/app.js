@@ -57,10 +57,10 @@ and when you think it is finished, uncomment the call for the testSumAndMultiply
 // Write your code here
 function sumAndMultiply(a, b, c) { //eslint-disable-line
   let sumNumber = sum(a,b)[0];
-  sumNumber = sum(sumNumber,c)[0];
+  sumnUmber = sum(sumNumber,c)[0];
   let multiNumber = multiply(a,b)[0];
-  multiNumber = multiply(multiNumber,c)[0];
-  return[sumNumber,multiNumber `${a} and ${b} and ${c} is sum of ${sumNumber}.`, `The product of ${a} and ${b} and ${c} is ${multiNumber}.` ];
+  multinUmber = multiply(multiNumber,c)[0];
+  return[sumnUmber,multinUmber `${a} and ${b} and ${c} is sum of ${sumnUmber}.`, `The product of ${a} and ${b} and ${c} is ${multinUmber}.` ];
 }
 
 
@@ -89,9 +89,9 @@ let testArray = [2, 3, 4]; //eslint-disable-line
 
 function sumArray(sumArr) { //eslint-disable-line
   let sumNumber = sum(a,b)[0];
-  sumNumber = sum(sumNumber,c)[0];
+  sumNo = sum(sumNumber,c)[0];
 
-  return[`${a},${b},${c} was passed in as an array of numbers, and ${sumNumber} is their sum.`]
+  return[`${a},${b},${c} was passed in as an array of numbers, and ${sumNo} is their sum.`]
 
 }
 
